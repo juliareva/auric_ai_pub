@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-playfair: "Playfair Display", "serif";
+  --font-lato: "Lato", "sans-serif";
+
+  --color-green-primary: #003F41;
+  --color-green-secondary: #004440;
+  --color-green-light: #e6f0ec;
+  --color-green-dark: #002626;
+  --color-white: #FEFEFE;
+  --color-black: #191919;
+  --color-beige: #FCF1E580;
+  --color-beige-primary: #FCF1E5;
+
+
+}
+
+* {
+  @apply transition-colors duration-100;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

@@ -1,0 +1,9 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+backend/files/*
+.env
+gcloud.json
